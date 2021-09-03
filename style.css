@@ -1,197 +1,77 @@
-body {
-   
-    background: #FFF;
-   width: 100%;
-   height: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    align-items: center;
-  }
 
-
-
-
-a {
-    text-decoration: none;
-    text-align: center;
-    color: #FFC48A;;
+body{
+  width: 901px;
+  margin:auto;
   }
   
-  header {
-    display: grid;
-    grid-template-columns: 40px 400px 800px ; 
-    align-items: l;
-    justify-content: space-around;
-    height: 100px;
-    width: 100%;
-    background-color: #f5f7f0	;   }
-
-    #logo{
-        float: left;
-        margin-top: 7px;
-        margin-bottom: 7px;
-        margin-right: 1px;
-        margin-left: 12px;
-        width: 25px;
-        height: 25px;
-    }
-
-    .textLogo{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; 
-        margin-left: 2px;
-        margin-top: 7px;
-        margin-bottom: 1px;
-        margin-right: 10px;
-        width: 100px;
-        height: 70px; 
-    }
-  
-  header section nav {
-    text-align: center;
-    width: 100%;
-    margin-top: 15px;
-  margin-right: 40px;
+  header article {
+      display: inline-block;
   }
-
-  .headingSection{
+  header article b {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2em;
+  }
+  header{
       display: grid;
-      grid-template-rows: auto auto;
-  }
-
-  .socialLogos img {
-    float: left;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 25px;
-    height: 25px;
-  }
-
-  .socialLogos li {
-        margin-top: 7px;
-    margin-bottom: 7px;
-        width: 25px;
-    height: 47px;
-    margin-left: 0px;
-    margin-right: 0px;
+       grid-template-columns: auto auto;
+       gap:350px;
+      padding-top: 20px;
   }
   
-  header section nav li  {
-    padding: 10px 20px;
-    display: inline-block;
-    transition: all 500ms;
-    margin-right: 1px;
-    font-size: 24px;
-    font-style: oblique;
-     font-weight: bold;
-     color: #b0e0e6	;
-   
+  header section:nth-child(2) img:nth-child(7){
+      margin-left: 10px;
   }
-  .socialLogos div img{
-      float: left;
-
-align-items: center;
-margin-left: 80px;
-
+  header section:nth-child(2){
+  float:right;}
+  
+  main b {
+      font-style: italic;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .heroSection{
-    display: grid;
-    grid-template-rows: auto auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-
+  main div {
+      display: grid;
+      grid-template-columns: auto auto;    
+      float:right;
+  
   }
-
-  .heroSection div p {
-text-indent: 15px;
-font-style: normal;
-font-size: 15px;
-text-align: center;
-word-spacing: 5px;
-color: #717374;
-
-
-  }
-
-  .listSection{
-    display: grid;
-    grid-template-columns: 450px 450px;
-      background-image: url(./img/list-bg.png) ;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      margin-left: 50px;
-      margin-right: 50px;
-
-
-  }
-
-  .listSection div{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .listSection div  input{
-      display: block;
-  }
-
-  .vanhr {
-	background:url(./img/hr-img.png) repeat top center;
-	height:10px;
-	border:none !important;
-}
-
- 
-
-#hr2 { 
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#hr2 img {
-    position: relative;
-    top: -18px;
-    background:white;
-    padding:0 5px;
-}
-
- .vanSection{
-     display: grid;
-     grid-template-columns: 70px auto 300px;
-     margin-top: 20px;
-     margin-bottom: 10px;
-     margin-left: 50px;
-     margin-right: 50px;
-     color: #717374;
-
- }
-  #shrBtn{
-      background-color: #ca4d27;
-      color: rgba(247, 243, 243, 0.733);
-      width: 150px;
-      height: 50px;
+  main div img {
+      margin-top: 5px;    
   }
   
-   footer{
-        display: grid;
-        grid-template-rows:  auto auto ; 
-        align-items: center;
-        z-index: 0;
-        margin-top: 3px;
-       
+      main  input , lable {
+  
+          display: block;
+      }
+      main article{
+          display: grid;
+          grid-template-columns: auto auto;
+      background-image: url('./img/list-bg.png');
+  }
+  
+      .hr {
+      background-image: url(./img/hr-img.png);
+      height: 15px;
+      width: auto;
+      }
+   p{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+    
+   footer div p{ 
+       display: inline-block;
+   }
+   footer div button{
+       float: right;
+       margin-top: 50px;
+       height: 30px;
+       color:white;
+       background-color: brown;
+   }
+   footer section{
+       text-align: center;
+       position: relative;
+       top: -25px;
        
    }
-
-
-   .footerSec{
-           font-size: 13px;
-           text-align: center;
-           color: #717374;
-
-   } 
+   
